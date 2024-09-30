@@ -1,15 +1,15 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simcu Tool",
     "homepage": "https://github.com/simcu/simcu-tool",
     "license": "MIT",
-    "url": "https://github.com/simcu/simcu-tool/releases/download/v1.0.0/simcu-tool.ps1",
+    "url": "https://raw.githubusercontent.com/simcu/simcu-tool/refs/tags/1.0.0/simcu-tool.ps1",
     "hash": "77AF16B09242251D4FF8D948C7E8D63C44B1DA2714DFC2993CC5FD7B67483401",  
     "bin": "simcu-tool.ps1", 
     "checkver": {
         "github": "https://github.com/simcu/simcu-tool"
     },
     "autoupdate": {
-        "url": "https://github.com/simcu/simcu-tool/releases/download/v$version/imcu-tool.ps1"
+        "url": "https://raw.githubusercontent.com/simcu/simcu-tool/refs/tags/$version/simcu-tool.ps1"
     }
 }
